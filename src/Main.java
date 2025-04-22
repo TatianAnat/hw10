@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //task 1
@@ -62,5 +64,14 @@ public class Main {
             }
 
         }
+        System.out.println();
+        //task 4
+        System.out.println("task 4");
+        for (int i = weight.length-1; i >= 0; i--) {
+            if (weight[i] % 2 != 0){
+                weight[i] = weight[i]+1;
+            }
+        }
+        System.out.println(Arrays.toString(weight));
     }
 }
