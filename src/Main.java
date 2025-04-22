@@ -9,7 +9,7 @@ public class Main {
 
         float[] array = {1.57f, 7.654f, 9.986f};
 
-        byte[] array1 = {57, 54, 98, 110};
+        byte[] array1 = {54, 57, 98, 110};
 
 
         //task 2
@@ -34,6 +34,33 @@ public class Main {
             if (i < array1.length - 1) {
                 System.out.print(",");
             }
+
+        }
+        System.out.println();
+        //task 3
+        System.out.println("task 3");
+        for (int i = weight.length-1; i >= 0; i--) {
+            System.out.print(weight[i]);
+            if (i > 0) {
+                System.out.print(",");
+            }
+
+        }
+        System.out.println();
+        for (int i = array.length-1; i >= 0; i--) {
+            System.out.print(array[i]);
+            if (i > 0) {
+                System.out.print(",");
+            }
+
+        }
+        System.out.println();
+        for (int i = array1.length-1; i >= 0; i--) {
+            System.out.print(array1[i]);
+            if (i >0) {
+                System.out.print(",");
+            }
+
         }
     }
 }
